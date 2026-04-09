@@ -1,2 +1,5 @@
 # portifólio-web
-Primeiro repositorio web do curso sistemas para internet
+
+Primeiro repositório web do curso sistemas para internet
+
+Repositório criado na disciplina de programação web.
