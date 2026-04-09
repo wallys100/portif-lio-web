@@ -1,0 +1,147 @@
+:root {
+  --primary: #2563eb;
+  --dark: #0f172a;
+  --light: #f1f5f9;
+  --white: #ffffff;
+}
+
+/* BASE */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--light);
+  color: var(--dark);
+}
+
+/* HEADER */
+header {
+  background: var(--white);
+  padding: 20px 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--dark);
+  font-weight: 600;
+}
+
+/* SECTIONS */
+section {
+  padding: 60px 5%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* TITULOS (PADRÃO PARA TODOS) */
+section h2 {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* GARANTE QUE SOBRE FIQUE IGUAL */
+#sobre h2 {
+  font-size: 32px;
+}
+
+/* PROJETOS */
+.projetos-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.projetos-container div {
+  background: var(--white);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* FORM */
+form {
+  background: var(--white);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.campo {
+  margin-bottom: 15px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: var(--primary);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+}
+#sobre {
+  text-align: center;
+}
+
+section h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#sobre p {
+  max-width: 600px;
+  margin: auto;
+  line-height: 1.6;
+}
+
+.projetos-container div {
+  transition: 0.3s;
+}
+
+.projetos-container div:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+.projetos-container a {
+  color: #2563eb;
+  font-weight: bold;
+}
+#btn-tema {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
