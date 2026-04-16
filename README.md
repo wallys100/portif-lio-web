@@ -1,4 +1,4 @@
-# Portifólio web
+# Portfólio web
 
 Primeiro repositório web do curso sistemas para internet
 
